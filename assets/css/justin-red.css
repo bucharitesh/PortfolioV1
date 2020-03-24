@@ -730,7 +730,7 @@ a {
 /* ---------------------------------------------- 
 * 7. Portfolio
 /* ---------------------------------------------- */
-
+/*
 .filter {
     border-bottom: 1px solid #eee; 
 }
@@ -827,10 +827,13 @@ a {
     background-color: #fd735a;
 }
 
+*/
+
 /* ---------------------------------------------- 
 * 8. Services
 /* ---------------------------------------------- */
 
+/*
 
 .section-services {
     padding-bottom: 80px
@@ -1018,12 +1021,13 @@ a {
     background-image: url("../images/services6.jpg");
 }
 
+*/
 
 /* ---------------------------------------------- 
 * 9. Freelance
 /* ---------------------------------------------- */
 
-
+/*
 .section-freelance {
     background: url(../images/freelance.jpg);
     background-size: cover;
@@ -1048,6 +1052,7 @@ a {
 .section-freelance h2 {
     color: #fff;
 }
+*/
 
 /* ---------------------------------------------- 
 * 10. Resume
@@ -1066,7 +1071,7 @@ a {
 /* ---------------------------------------------- 
 * 11. Testimony
 /* ---------------------------------------------- */
-
+/*
 .section-testimony {
     padding-bottom: 80px
 }
@@ -1099,6 +1104,7 @@ a {
 .swiper-container {
     padding-top: 20px;
 }
+*/
 
 /* ---------------------------------------------- 
 * 12. Blog
@@ -1142,6 +1148,7 @@ a {
 */
 /* Grid and portfolio items */
 
+/*
 .list-items-container {
     position: relative;
     display: block;
@@ -1390,6 +1397,7 @@ h4.media-heading {
     margin-top: 50px;
 }
 
+*/
 
 /* ---------------------------------------------- 
 * 13. Contact
