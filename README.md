@@ -22,5 +22,6 @@
 </ul>
 
 <b>V1.0.1 (22-3-2020)</b>
-
-Initial Commit </br>
+<ul>
+<li>Initial Commit </li>
+</ul>
