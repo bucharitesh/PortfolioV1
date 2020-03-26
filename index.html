@@ -17,7 +17,6 @@
 			window.scrollTo(0, 0);
 		};
 	</script>
-    
     <!-- CSS Files -->
 	   <!-- Vendor Css--> <link rel="stylesheet" href="./assets/css/vendor.min.css">
 	   <!-- Style Css --> <link rel="stylesheet" href="./assets/css/justin-red.css">
@@ -70,24 +69,25 @@
                         <form id="Contactform">
                             <br>
                             <div class="form-group">
-                                <input type="email" class="form-control" id="email"
+                                <input type="email" class="form-control" id="cv_email"
                                     aria-describedby="emailHelp" placeholder="Email Address">
                                 <small id="emailHelp" class="form-text text-muted">I'll never share your email with
                                     anyone else.</small>
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" id="name"
+                                <input type="text" class="form-control" id="cv_name"
                                     placeholder="Name">
                             </div>
                             <br>
                             <div class="form-group text-center">
-                                <button type="button" class="btn btn-secondary" download="RB_Resume">Download</button>
+                                <button type="button" class="btn btn-secondary" download="RB_Resume" onclick="cv_down();" dismiss="modal">Download</button>
                             </div>
                         </form>
                     </div>
 
                 </div>
             </div>
+        </div>
         </div>
         <!-- END: RESUME MODAL -->
 
@@ -826,10 +826,10 @@
 	<!--END: FOOTER-->
 
     <!-- JAVASCRIPTS -->
-            
+            <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
             <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-app.js"></script>
-            <!-- TODO: Add SDKs for Firebase products that you want to use https://firebase.google.com/docs/web/setup#available-libraries -->
             <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-analytics.js"></script>
+            <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-database.js"></script>
         <!-- Bootstrap -->
             <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
         <!-- Smooth Scroll -->
