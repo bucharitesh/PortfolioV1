@@ -561,7 +561,7 @@ a {
 .section-home {
     height: 100vh;
     position: relative;
-    background-image: url("../images/bg1.jpeg");
+    background-image: url("../images/bg1.webp");
     background-size: cover;
     background-position: center;
 }
@@ -786,7 +786,6 @@ a {
     height: 200px;
     width: 200px;
     display: block;
-    background: url(../images/pattern1.png);
     background-size: 155px;
     top: -80px;
 }
@@ -1118,12 +1117,14 @@ a {
     color: #fff;
 }
 
+/*
 .services-list-1 {
     background-image: url("../images/services1.jpg");
 }
+*/
 
 .services-list-2 {
-    background-image: url("../images/personal.png");
+    background-image: url("../images/personal.webp");
 }
 
 /*
