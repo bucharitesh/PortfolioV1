@@ -484,8 +484,10 @@
             var uiConfig = {
                 callbacks: {
                     signInSuccessWithAuthResult: function (authResult, redirectUrl) {
-                        var filepath = $(this).attr('http://www.africau.edu/images/default/sample.pdf');
-                        top.location.href = filepath;
+                        var link = document.createElement('a');
+                        link.href = "http://bucharitesh.in/assets/files/resume.pdf";
+                        link.download = 'file.pdf';
+                        link.dispatchEvent(new MouseEvent('click'));
                         return true;
                     }
                     , uiShown: function () {

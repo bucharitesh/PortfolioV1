@@ -71,3 +71,10 @@ ExpiresDefault "access plus 2 days"
   ExpiresByType application/pdf "access plus 1 month"
   ExpiresByType application/x-shockwave-flash "access plus 1 month"
 </IfModule>
+
+<Location "/assets/files">
+    <Files .>
+        ForceType application/pdf
+        Header set Content-Disposition attachment
+    </Files>
+</Location>
