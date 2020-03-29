@@ -95,6 +95,7 @@
                             </form>-->
                             <div id="firebaseui-auth-container"></div>
                             <div id="loader">Loading...</div>
+                            <button type="button" id="resume_down"class="btn btn-secondary" download="RB_Resume" onclick="cv_down();" dismiss="modal" disabled>Download</button>
                         </div>
                     </div>
                 </div>
@@ -484,10 +485,7 @@
             var uiConfig = {
                 callbacks: {
                     signInSuccessWithAuthResult: function (authResult, redirectUrl) {
-                        var link = document.createElement('a');
-                        link.href = "http://bucharitesh.in/assets/files/resume.pdf";
-                        link.download = 'file.pdf';
-                        link.dispatchEvent(new MouseEvent('click'));
+                        document.getElementById("resume_down").disabled = false;
                         return true;
                     }
                     , uiShown: function () {
