@@ -1,7 +1,0 @@
-Page Speed insights Scores :-
-
-1. Initial Commit M-9 W-54
-2. 1.0.1 23-03-2020 M-16 W-64
-3. 1.0.2 24-03-2020 M-59 W-66
-
-

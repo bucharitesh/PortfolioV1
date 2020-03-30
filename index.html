@@ -3,13 +3,6 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<style>.dismissButton{background-color:#fff;border:1px solid #dadce0;color:#1a73e8;border-radius:4px;font-family:Roboto,sans-serif;font-size:14px;height:36px;cursor:pointer;padding:0 24px}.dismissButton:hover{background-color:rgba(66,133,244,0.04);border:1px solid #d2e3fc}.dismissButton:focus{background-color:rgba(66,133,244,0.12);border:1px solid #d2e3fc;outline:0}.dismissButton:hover:focus{background-color:rgba(66,133,244,0.16);border:1px solid #d2e2fd}.dismissButton:active{background-color:rgba(66,133,244,0.16);border:1px solid #d2e2fd;box-shadow:0 1px 2px 0 rgba(60,64,67,0.3),0 1px 3px 1px rgba(60,64,67,0.15)}.dismissButton:disabled{background-color:#fff;border:1px solid #f1f3f4;color:#3c4043}</style>
-		<style>.gm-style .gm-style-mtc label,.gm-style .gm-style-mtc div{font-weight:400}</style>
-		<style>.gm-control-active>img{box-sizing:content-box;display:none;left:50%;pointer-events:none;position:absolute;top:50%;transform:translate(-50%,-50%)}.gm-control-active>img:nth-child(1){display:block}.gm-control-active:hover>img:nth-child(1),.gm-control-active:active>img:nth-child(1){display:none}.gm-control-active:hover>img:nth-child(2),.gm-control-active:active>img:nth-child(3){display:block}</style>
-		<link type="text/css" rel="stylesheet" href="./assets/css/"><style>.gm-ui-hover-effect{opacity:.6}.gm-ui-hover-effect:hover{opacity:1}</style>
-		<style>.gm-style .gm-style-cc span,.gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{font-size:10px;box-sizing:border-box}</style>
-		<style>@media print {  .gm-style .gmnoprint, .gmnoprint {    display:none  }}@media screen {  .gm-style .gmnoscreen, .gmnoscreen {    display:none  }}</style><style>.gm-style-pbc{transition:opacity ease-in-out;background-color:rgba(0,0,0,0.45);text-align:center}.gm-style-pbt{font-size:22px;color:white;font-family:Roboto,Arial,sans-serif;position:relative;margin:0;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}</style>
-		<style>.gm-style img{max-width: none;}.gm-style {font: 400 11px Roboto, Arial, sans-serif; text-decoration: none;}</style>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Portfolio | Ritesh Bucha</title>
 	<meta name="description" content="Ritesh - Personal Portfolio">
@@ -42,18 +35,51 @@
 
 				<div class="collapse navbar-collapse" id="navbarToggler">
 					<ul class="navbar-nav ml-auto">
-						<li><a class="nav-link active" href="#home">Home</a></li>
-						<li><a class="nav-link active" href="#services">Projects</a></li>
-						<li><a class="nav-link" href="#resume">Resume</a></li>
-						<li><a class="nav-link" href="#contact">Contact</a></li>
+						<li><a class="nav-link active" href="index.html#home">home</a></li>
+						<li><a class="nav-link" href="index.html#resume">Resume</a></li>
+						<li><a class="nav-link" href="index.html#contact">Contact</a></li>
 					</ul>
 				</div>
 			</div>
 		</nav>
 
-		<!-- START: new MODAL -->
+        <!-- START: RESUME MODAL -->
+        <!--
+        <div class="modal fade" id="myModal">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                -->
+                    <!-- Modal body -->
+                    <!--
+                    <div class="modal-body">
+                        <form id="Contactform">
+                            <br>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="cv_email"
+                                    aria-describedby="emailHelp" placeholder="Email Address">
+                                <small id="emailHelp" class="form-text text-muted">I'll never share your email with
+                                    anyone else.</small>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="cv_name"
+                                    placeholder="Name">
+                            </div>
+                            <br>
+                            <div class="form-group text-center">
+                                <button type="button" class="btn btn-secondary" download="RB_Resume" onclick="cv_down();" dismiss="modal">Download</button>
+                            </div>
+                        </form>
+                    </div>
 
-		<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                </div>
+            </div>
+        </div>
+        </div>
+    -->
+        <!-- END: RESUME MODAL -->
+        <!-- START: new MODAL -->
+
+          <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
               <div class="modal-content">
                 <div class="modal-body">
@@ -84,7 +110,7 @@
         <!-- END: new MODAL -->
 
 		<!-- START: HOME -->
-		<section class="section-home " id="home" style="background-position: 50% 0px;">
+            <section class="section-home " id="home" style="background-position: 50% 0px;">
             <div class="overlay d-flex justify-content-center align-items-center">
                 <div class="overlay-wrap section-head">
                     <span class="mb-2">Hello, I am</span>
@@ -99,507 +125,503 @@
 		<!-- END: HOME -->
 
 		<!-- START: ABOUT -->
-		<section class="section section-about" id="about">
+            <section class="section section-about" id="about">
 
-			<div class="section-about-wrap">
+                <div class="section-about-wrap">
 
-				<div class="row justify-content-center align-items-center">
+                    <div class="row justify-content-center align-items-center">
 
-					<div class="col-md-7">
-						<div class="about-desc">
-							<div class="about-desc-content">
-								<h2>About Me</h2>
-								<p class="mt-4 font-weight-light">Inquisitive, energetic computer science specialist
-									skilled in leadership, with a strong foundation in math, logic, and cross-platform
-									coding.</p>
-							</div>
-							<ul class="about-desc-social mt-4 list-unstyled list-inline">
-								<li class="list-inline-item"><a href="https://facebook.com/bucharitesh"><i
-											class="fab fa-facebook-f"></i></a></li>
-								<li class="list-inline-item"><a href="https://www.linkedin.com/in/bucharitesh/"><i
-											class="fab fa-linkedin-in"></i></a></li>
-								<li class="list-inline-item"><a href="https://github.com/bucharitesh"><i
-											class="fab fa-github"></i></a></li>
-								<li class="list-inline-item"><a href="https://www.instagram.com/bucha._.ritesh/"><i
-											class="fab fa-instagram"></i></a></li>
-							</ul>
-						</div>
-					</div>
+                        <div class="col-md-7">
+                            <div class="about-desc">
+                                <div class="about-desc-content">
+                                    <h2>About Me</h2>
+                                    <p class="mt-4 font-weight-light">Inquisitive, energetic computer science specialist
+                                        skilled in leadership, with a strong foundation in math, logic, and cross-platform
+                                        coding.</p>
+                                </div>
+                                <ul class="about-desc-social mt-4 list-unstyled list-inline">
+                                    <li class="list-inline-item"><a href="https://facebook.com/bucharitesh"><i
+                                                class="fab fa-facebook-f"></i></a></li>
+                                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/bucharitesh/"><i
+                                                class="fab fa-linkedin-in"></i></a></li>
+                                    <li class="list-inline-item"><a href="https://github.com/bucharitesh"><i
+                                                class="fab fa-github"></i></a></li>
+                                    <li class="list-inline-item"><a href="https://www.instagram.com/bucha._.ritesh/"><i
+                                                class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
 
-					<div class="col-md-5 d-none d-md-block">
-						<img class="img-fluid img-thumbnail" src="assets/images/avatar.webp" alt="About Picture">
-					</div>
+                        <div class="col-md-5 d-none d-md-block">
+                            <img class="lazyload img-fluid img-thumbnail" data-src="assets/images/avatar.webp" alt="About Picture">
+                        </div>
 
-				</div>
+                    </div>
 
-			</div>
+                </div>
 
-		</section>
+            </section>
 		<!-- END: ABOUT -->
 
 		<!-- START: SERVICES -->
 		
-		<section class="section section-services" id="services">
-			<div class="container">
-				<div class="section-head">
-					<span>WHAT I DO</span>
-					<h2>My Projects</h2>
-				</div>
+            <section class="section section-services" id="services">
+                <div class="container">
+                    <div class="section-head">
+                        <span>WHAT I DO</span>
+                        <h2>My Projects</h2>
+                    </div>
 
-				<div class="row mt-4">
-					<div class="col-sm-6 col-md-4">
-						<div class="services-flip wow fadeInUp" data-wow-duration="1.5s" style="visibility: hidden; animation-duration: 1.5s; animation-name: none;">
-							<div class="services-list">
-								<div class="services-list-front services-list-1">
-									<div class="flip-content">
-										<h5 class="mb-0">Graphic Design</h5>
-									</div>
-								</div>
-								<div class="services-list-back">
-									<div class="flip-content">
-										<div class="services-list-icon">
-											<i class="fas fa-paint-brush  "></i>
-										</div>
-										<div class="mt-4">
-											<h5 class="mb-0">Graphic Design</h5>
-											<p class=" mt-3">Modern and mobile-ready website that will help of your marketing.</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-4">
-						<div class="services-flip wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s" style="visibility: hidden; animation-duration: 1.5s; animation-delay: 0.2s; animation-name: none;">
-							<div class="services-list">
-								<div class="services-list-front services-list-2">
-									<div class="flip-content">
-										<h5 class="mb-0">Personal Site</h5>
-									</div>
-								</div>
-								<div class="services-list-back">
-									<div class="flip-content">
-										<div class="services-list-icon">
-											<i class="fas fa fa-globe  "></i>
-										</div>
-										<div class="mt-4">
-											<h5 class="mb-0">Web Development</h5>
-											<p class=" mt-3">Modern and mobile-ready website that will help of your marketing.
-												</br>
+                    <div class="row mt-4">
+                        <div class="col-sm-6 col-md-4">
+                            <div class="services-flip wow fadeInUp" data-wow-duration="1.5s" style="visibility: hidden; animation-duration: 1.5s; animation-name: none;">
+                                <div class="services-list">
+                                    <div class="services-list-front services-list-1">
+                                        <div class="flip-content">
+                                            <h5 class="mb-0">Graphic Design</h5>
+                                        </div>
+                                    </div>
+                                    <div class="services-list-back">
+                                        <div class="flip-content">
+                                            <div class="services-list-icon">
+                                                <i class="fas fa-paint-brush  "></i>
+                                            </div>
+                                            <div class="mt-4">
+                                                <h5 class="mb-0">Graphic Design</h5>
+                                                <p class=" mt-3">Modern and mobile-ready website that will help of your marketing.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="services-flip wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s" style="visibility: hidden; animation-duration: 1.5s; animation-delay: 0.2s; animation-name: none;">
+                                <div class="services-list">
+                                    <div class="services-list-front services-list-2">
+                                        <div class="flip-content">
+                                            <h5 class="mb-0">Personal Site</h5>
+                                        </div>
+                                    </div>
+                                    <div class="services-list-back">
+                                        <div class="flip-content">
+                                            <div class="services-list-icon">
+                                                <i class="fas fa fa-globe  "></i>
+                                            </div>
+                                            <div class="mt-4">
+                                                <h5 class="mb-0">Web Development</h5>
+                                                <p class=" mt-3">Modern and mobile-ready website that will help of your marketing.
+                                                    </br>
 
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-	<!-- END: SERVICES -->
+		<!-- END: SERVICES -->
 
-	<!-- START: RESUME -->
-		<section class="section section-dark section-resume" id="resume">
-			<div class="container">
-				<div class="section-head">
-					<span>My Resume</span>
-					<h2>My Expertises</h2>
-				</div>
+		<!-- START: RESUME -->
+            <section class="section section-dark section-resume" id="resume">
+                <div class="container">
+                    <div class="section-head">
+                        <span>My Resume</span>
+                        <h2>My Expertises</h2>
+                    </div>
 
-				<div class="row mt-4">
-					<div class="col-sm-6 col-lg-6">
-						<h5 class="section-subHead mt-3"> My Experience</h5>
-						<div class="resume-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s"
-							style="visibility: hidden; animation-duration: 1.5s; animation-name: none;">
-							<div>
-								<h5>Campus Ambassador <b>Careers360</b></h5>
-								<h6 class="badge badge-dark d-inline-block my-3">March 2020 - Present</h6>
-								<p>Collaborate with creative and development teams on the execution of ideas.</p>
-							</div>
-						</div>
-						<div class="resume-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s"
-							data-wow-delay=".2s"
-							style="visibility: hidden; animation-duration: 1.5s; animation-delay: 0.2s; animation-name: none;">
-							<div>
-								<h5>Social Work | Help Age India</h5>
-								<h6 class="badge badge-dark d-inline-block my-3">2007 - 2010</h6>
-								<p>Actively took part in raising funds for HELP-AGE India which is a NGO that raises
-									funds for old age homes and old people those who needs special attention and care.
-								</p>
-							</div>
-						</div>
+                    <div class="row mt-4">
+                        <div class="col-sm-6 col-lg-6">
+                            <h5 class="section-subHead mt-3"> My Experience</h5>
+                            <div class="resume-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s"
+                                style="visibility: hidden; animation-duration: 1.5s; animation-name: none;">
+                                <div>
+                                    <h5>Campus Ambassador <b>Careers360</b></h5>
+                                    <h6 class="badge badge-dark d-inline-block my-3">March 2020 - Present</h6>
+                                    <p>Collaborate with creative and development teams on the execution of ideas.</p>
+                                </div>
+                            </div>
+                            <div class="resume-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s"
+                                data-wow-delay=".2s"
+                                style="visibility: hidden; animation-duration: 1.5s; animation-delay: 0.2s; animation-name: none;">
+                                <div>
+                                    <h5>Social Work | Help Age India</h5>
+                                    <h6 class="badge badge-dark d-inline-block my-3">2007 - 2010</h6>
+                                    <p>Actively took part in raising funds for HELP-AGE India which is a NGO that raises
+                                        funds for old age homes and old people those who needs special attention and care.
+                                    </p>
+                                </div>
+                            </div>
 
-						<div class="resume-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s"
-							data-wow-delay=".3s"
-							style="visibility: hidden; animation-duration: 1.5s; animation-delay: 0.3s; animation-name: none;">
-							<div>
-								<h5>wqeqwdqw</h5>
-								<h6 class="badge badge-dark d-inline-block my-3">2020 - 2112</h6>
-								<p>lnadclna acsca cacs ac ac a cs casc as cascsac va</p>
-							</div>
-						</div>
-					</div>
+                            <div class="resume-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s"
+                                data-wow-delay=".3s"
+                                style="visibility: hidden; animation-duration: 1.5s; animation-delay: 0.3s; animation-name: none;">
+                                <div>
+                                    <h5>wqeqwdqw</h5>
+                                    <h6 class="badge badge-dark d-inline-block my-3">2020 - 2112</h6>
+                                    <p>lnadclna acsca cacs ac ac a cs casc as cascsac va</p>
+                                </div>
+                            </div>
+                        </div>
 
-					<div class="col-sm-6 col-lg-6">
-						<h5 class="section-subHead mt-3"> My Education</h5>
-						<div class="resume-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s"
-							style="visibility: hidden; animation-duration: 1.5s; animation-name: none;">
-							<div>
-								<h5>B.Tech, Computer Science Engineering</h5>
-								<h6 class="badge badge-dark d-inline-block my-3">2018-Present | SRM University</h6>
-								<ul>
-									<li>Average UG Percentage upto 3rd Sem : 8.6 gpa.</li>
-									<li>Recieved Certificate for completing a special Course on "C Language".</li>
-								</ul>
-							</div>
-						</div>
+                        <div class="col-sm-6 col-lg-6">
+                            <h5 class="section-subHead mt-3"> My Education</h5>
+                            <div class="resume-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s"
+                                style="visibility: hidden; animation-duration: 1.5s; animation-name: none;">
+                                <div>
+                                    <h5>B.Tech, Computer Science Engineering</h5>
+                                    <h6 class="badge badge-dark d-inline-block my-3">2018-Present | SRM University</h6>
+                                    <ul>
+                                        <li>Average UG Percentage upto 3rd Sem : 8.6 gpa.</li>
+                                        <li>Recieved Certificate for completing a special Course on "C Language".</li>
+                                    </ul>
+                                </div>
+                            </div>
 
-						<div class="resume-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s"
-							data-wow-delay=".3s"
-							style="visibility: hidden; animation-duration: 1.5s; animation-delay: 0.3s; animation-name: none;">
-							<div>
-								<h5>Higher Secondary</h5>
-								<h6 class="badge badge-dark d-inline-block my-3">2015 - 2017 | LBS, Kota</h6>
-								<ol>
-									<li> Physics </li>
-									<li> Chemistry </li>
-									<li> Mathematics </li>
-									<li> English </li>
-								</ol>
-							</div>
-						</div>
-					</div>
-				</div>
+                            <div class="resume-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s"
+                                data-wow-delay=".3s"
+                                style="visibility: hidden; animation-duration: 1.5s; animation-delay: 0.3s; animation-name: none;">
+                                <div>
+                                    <h5>Higher Secondary</h5>
+                                    <h6 class="badge badge-dark d-inline-block my-3">2015 - 2017 | LBS, Kota</h6>
+                                    <ol>
+                                        <li> Physics </li>
+                                        <li> Chemistry </li>
+                                        <li> Mathematics </li>
+                                        <li> English </li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-				<div class="row mt-4">
-					<div class="col-sm-6 col-lg-6">
-						<h5 class="section-subHead mt-3"> Programming Skills </h5>
-						<div class="resume-panel b-box hover-state p-4 mt-3">
+                    <div class="row mt-4">
+                        <div class="col-sm-6 col-lg-6">
+                            <h5 class="section-subHead mt-3"> Programming Skills </h5>
+                            <div class="resume-panel b-box hover-state p-4 mt-3">
 
-							<div class="mb-4 pb-2 wow fadeInUp" data-wow-duration="1.5s"
-								style="visibility: hidden; animation-duration: 1.5s; animation-name: none;">
-								<h6> Html / CSS </h6>
-								<div class="progress mt-2" style="height: 7px;">
-									<div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="95"
-										aria-valuemin="0" aria-valuemax="100"></div>
-								</div>
-							</div>
+                                <div class="mb-4 pb-2 wow fadeInUp" data-wow-duration="1.5s"
+                                    style="visibility: hidden; animation-duration: 1.5s; animation-name: none;">
+                                    <h6> Html / CSS </h6>
+                                    <div class="progress mt-2" style="height: 7px;">
+                                        <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="95"
+                                            aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
 
-							<div class="mb-4 pb-2 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s"
-								style="visibility: hidden; animation-duration: 1.5s; animation-delay: 0.2s; animation-name: none;">
-								<h6>C Programming</h6>
-								<div class="progress mt-2" style="height: 7px;">
-									<div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75"
-										aria-valuemin="0" aria-valuemax="100"></div>
-								</div>
-							</div>
+                                <div class="mb-4 pb-2 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s"
+                                    style="visibility: hidden; animation-duration: 1.5s; animation-delay: 0.2s; animation-name: none;">
+                                    <h6>C Programming</h6>
+                                    <div class="progress mt-2" style="height: 7px;">
+                                        <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75"
+                                            aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
 
-							<div class="mb-4 pb-2 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".3s"
-								style="visibility: hidden; animation-duration: 1.5s; animation-delay: 0.3s; animation-name: none;">
-								<h6>Python Programming</h6>
-								<div class="progress mt-2" style="height: 7px;">
-									<div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="85"
-										aria-valuemin="0" aria-valuemax="100"></div>
-								</div>
-							</div>
+                                <div class="mb-4 pb-2 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".3s"
+                                    style="visibility: hidden; animation-duration: 1.5s; animation-delay: 0.3s; animation-name: none;">
+                                    <h6>Python Programming</h6>
+                                    <div class="progress mt-2" style="height: 7px;">
+                                        <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="85"
+                                            aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
 
-							<div class="mb-0 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".4s"
-								style="visibility: hidden; animation-duration: 1.5s; animation-delay: 0.4s; animation-name: none;">
-								<h6>Angular </h6>
-								<div class="progress mt-2" style="height: 7px;">
-									<div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80"
-										aria-valuemin="0" aria-valuemax="100"></div>
-								</div>
-							</div>
+                                <div class="mb-0 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".4s"
+                                    style="visibility: hidden; animation-duration: 1.5s; animation-delay: 0.4s; animation-name: none;">
+                                    <h6>Angular </h6>
+                                    <div class="progress mt-2" style="height: 7px;">
+                                        <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80"
+                                            aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
 
-						</div>
-					</div>
-					<div class="col-sm-6 col-lg-6">
-						<h5 class="section-subHead mt-3"> Conceptual Knowledge </h5>
-						<div class="resume-list b-box hover-state p-4 mt-3">
-							<div class="mb-4 pb-2 wow fadeInUp" data-wow-duration="1.5s"
-								style="visibility: hidden; animation-duration: 1.5s; animation-name: none;">
-								<h6> Data Structure </h6>
-								<div class="progress mt-2" style="height: 7px;">
-									<div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90"
-										aria-valuemin="0" aria-valuemax="100"></div>
-								</div>
-							</div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-6">
+                            <h5 class="section-subHead mt-3"> Conceptual Knowledge </h5>
+                            <div class="resume-list b-box hover-state p-4 mt-3">
+                                <div class="mb-4 pb-2 wow fadeInUp" data-wow-duration="1.5s"
+                                    style="visibility: hidden; animation-duration: 1.5s; animation-name: none;">
+                                    <h6> Data Structure </h6>
+                                    <div class="progress mt-2" style="height: 7px;">
+                                        <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90"
+                                            aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
 
-							<div class="mb-4 pb-2 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s"
-								style="visibility: hidden; animation-duration: 1.5s; animation-delay: 0.2s; animation-name: none;">
-								<h6> AWS </h6>
-								<div class="progress mt-2" style="height: 7px;">
-									<div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85"
-										aria-valuemin="0" aria-valuemax="100"></div>
-								</div>
-							</div>
+                                <div class="mb-4 pb-2 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s"
+                                    style="visibility: hidden; animation-duration: 1.5s; animation-delay: 0.2s; animation-name: none;">
+                                    <h6> AWS </h6>
+                                    <div class="progress mt-2" style="height: 7px;">
+                                        <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85"
+                                            aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
 
-							<div class="mb-4 pb-2 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".3s"
-								style="visibility: hidden; animation-duration: 1.5s; animation-delay: 0.3s; animation-name: none;">
-								<h6>Jekyll</h6>
-								<div class="progress mt-2" style="height: 7px;">
-									<div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70"
-										aria-valuemin="0" aria-valuemax="100"></div>
-								</div>
-							</div>
+                                <div class="mb-4 pb-2 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".3s"
+                                    style="visibility: hidden; animation-duration: 1.5s; animation-delay: 0.3s; animation-name: none;">
+                                    <h6>Jekyll</h6>
+                                    <div class="progress mt-2" style="height: 7px;">
+                                        <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70"
+                                            aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
 
-							<div class="mb-0 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".4s"
-								style="visibility: hidden; animation-duration: 1.5s; animation-delay: 0.4s; animation-name: none;">
-								<h6> Software Design </h6>
-								<div class="progress mt-2" style="height: 7px;">
-									<div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85"
-										aria-valuemin="0" aria-valuemax="100"></div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+                                <div class="mb-0 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".4s"
+                                    style="visibility: hidden; animation-duration: 1.5s; animation-delay: 0.4s; animation-name: none;">
+                                    <h6> Software Design </h6>
+                                    <div class="progress mt-2" style="height: 7px;">
+                                        <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85"
+                                            aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-			</div>
-		</section>
-	<!-- END: RESUME -->
+                </div>
+            </section>
+		<!-- END: RESUME -->
 
 		<!-- START: TESTIMONY -->
-        <!--
-		<section class="section section-dark section-testimony" id="testimony">
-			<div class="container">
-				<div class="section-head text-center">
-					<span>Kind Words</span>
-					<h2>testimonial</h2>
-				</div>
-				<div class="row mt-4">
-					<div class="col-lg-12">
-						<div class="swiper-container swiper-testimony wow fadeInUp swiper-container-initialized swiper-container-horizontal" data-wow-duration="1.5s" style="visibility: hidden; animation-duration: 1.5s; animation-name: none;">
-							<div class="swiper-wrapper" style="transform: translate3d(0px, 0px, 0px);">
-								<div class="swiper-slide single-testimonials swiper-slide-active" style="width: 1110px; margin-right: 30px;">
-									<div class="single-testimonials-in text-center p-4 b-box mx-auto">
-										<img src="./avatar1.jpg" alt="" class="mx-auto b-box">
-										<p class="pt-2 mt-4 text-center">"Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
-										<span class="font-weight-bold mt-3 d-block">- Anj Joseph, Web Developer</span>
-									</div>
-								</div>
+		<!--
+            <section class="section section-dark section-testimony" id="testimony">
+                <div class="container">
+                    <div class="section-head text-center">
+                        <span>Kind Words</span>
+                        <h2>testimonial</h2>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-lg-12">
+                            <div class="swiper-container swiper-testimony wow fadeInUp swiper-container-initialized swiper-container-horizontal" data-wow-duration="1.5s" style="visibility: hidden; animation-duration: 1.5s; animation-name: none;">
+                                <div class="swiper-wrapper" style="transform: translate3d(0px, 0px, 0px);">
+                                    <div class="swiper-slide single-testimonials swiper-slide-active" style="width: 1110px; margin-right: 30px;">
+                                        <div class="single-testimonials-in text-center p-4 b-box mx-auto">
+                                            <img src="./avatar1.jpg" alt="" class="mx-auto b-box">
+                                            <p class="pt-2 mt-4 text-center">"Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
+                                            <span class="font-weight-bold mt-3 d-block">- Anj Joseph, Web Developer</span>
+                                        </div>
+                                    </div>
 
-								<div class="swiper-slide single-testimonials swiper-slide-next" style="width: 1110px; margin-right: 30px;">
-									<div class="single-testimonials-in text-center p-4 b-box mx-auto">
-										<img src="./avatar1.jpg" alt="" class="mx-auto b-box">
-										<p class="pt-2 mt-4 text-center">"Raw denim you probably haven't heard of them jean shorts Austin.  Mustache cliche tempor, williamsburg carles vegan helvetica."</p>
-										<span class="font-weight-bold mt-3 d-block">- Anj Joseph, Web Developer</span>
-									</div>
-								</div>
+                                    <div class="swiper-slide single-testimonials swiper-slide-next" style="width: 1110px; margin-right: 30px;">
+                                        <div class="single-testimonials-in text-center p-4 b-box mx-auto">
+                                            <img src="./avatar1.jpg" alt="" class="mx-auto b-box">
+                                            <p class="pt-2 mt-4 text-center">"Raw denim you probably haven't heard of them jean shorts Austin.  Mustache cliche tempor, williamsburg carles vegan helvetica."</p>
+                                            <span class="font-weight-bold mt-3 d-block">- Anj Joseph, Web Developer</span>
+                                        </div>
+                                    </div>
 
-								<div class="swiper-slide single-testimonials" style="width: 1110px; margin-right: 30px;">
-									<div class="single-testimonials-in text-center p-4 b-box mx-auto">
-										<img src="./avatar1.jpg" alt="" class="mx-auto b-box">
-										<p class="pt-2 mt-4 text-center">"Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
-										<span class="font-weight-bold mt-3 d-block">- Anj Joseph, Web Developer</span>
-									</div>
-								</div>
+                                    <div class="swiper-slide single-testimonials" style="width: 1110px; margin-right: 30px;">
+                                        <div class="single-testimonials-in text-center p-4 b-box mx-auto">
+                                            <img src="./avatar1.jpg" alt="" class="mx-auto b-box">
+                                            <p class="pt-2 mt-4 text-center">"Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
+                                            <span class="font-weight-bold mt-3 d-block">- Anj Joseph, Web Developer</span>
+                                        </div>
+                                    </div>
 
-								<div class="swiper-slide single-testimonials" style="width: 1110px; margin-right: 30px;">
-									<div class="single-testimonials-in text-center p-4 b-box mx-auto">
-										<img src="./avatar1.jpg" alt="" class="mx-auto b-box">
-										<p class="pt-2 mt-4 text-center">"Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
-										<span class="font-weight-bold mt-3 d-block">- Anj Joseph, Web Developer</span>
-									</div>
-								</div>
+                                    <div class="swiper-slide single-testimonials" style="width: 1110px; margin-right: 30px;">
+                                        <div class="single-testimonials-in text-center p-4 b-box mx-auto">
+                                            <img src="./avatar1.jpg" alt="" class="mx-auto b-box">
+                                            <p class="pt-2 mt-4 text-center">"Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
+                                            <span class="font-weight-bold mt-3 d-block">- Anj Joseph, Web Developer</span>
+                                        </div>
+                                    </div>
 
-								<div class="swiper-slide single-testimonials" style="width: 1110px; margin-right: 30px;">
-									<div class="single-testimonials-in text-center p-4 b-box mx-auto">
-										<img src="./avatar1.jpg" alt="" class="mx-auto b-box">
-										<p class="pt-2 mt-4 text-center">"Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica."</p>
-										<span class="font-weight-bold mt-3 d-block">- Anj Joseph, Web Developer</span>
-									</div>
-								</div>
+                                    <div class="swiper-slide single-testimonials" style="width: 1110px; margin-right: 30px;">
+                                        <div class="single-testimonials-in text-center p-4 b-box mx-auto">
+                                            <img src="./avatar1.jpg" alt="" class="mx-auto b-box">
+                                            <p class="pt-2 mt-4 text-center">"Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica."</p>
+                                            <span class="font-weight-bold mt-3 d-block">- Anj Joseph, Web Developer</span>
+                                        </div>
+                                    </div>
 
-							</div>
-							<div class="swiper-pagination"></div>
-						<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
 
-						<div class="testimony-nav">
-							<a href="https://www.beingeorge.com/justin/index-1.html#" class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide" aria-disabled="false"></a>
-							<a href="https://www.beingeorge.com/justin/index-1.html#" class="swiper-button-prev swiper-button-disabled" tabindex="0" role="button" aria-label="Previous slide" aria-disabled="true"></a>
-						</div>
+                            <div class="testimony-nav">
+                                <a href="https://www.beingeorge.com/justin/index-1.html#" class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide" aria-disabled="false"></a>
+                                <a href="https://www.beingeorge.com/justin/index-1.html#" class="swiper-button-prev swiper-button-disabled" tabindex="0" role="button" aria-label="Previous slide" aria-disabled="true"></a>
+                            </div>
 
-					</div>
-				</div>
-			</div>
-		
+                        </div>
+                    </div>
+                </div>
+            </section>
 -->
 		<!-- END: TESTIMONY -->
 
 		<!-- START: CTA -->
-		<section class="section  section-freelance section-light text-center ">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12">
-						<div class="section-head wow fadeInUp" data-wow-duration="1.5s"
-							style="visibility: hidden; animation-duration: 1.5s; animation-name: none;">
-							<h2>Let's work together!</h2>
-						</div>
-						<div class="mt-5 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s"
-							style="visibility: hidden; animation-duration: 1.5s; animation-delay: 0.2s; animation-name: none;">
-							<a href="mailto:bucharitesh@gmail.com" class="btn btn-outline hover-state">Hire Me!</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-	<!-- END: CTA -->
+            <section class="section  section-freelance section-light text-center ">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="section-head wow fadeInUp" data-wow-duration="1.5s"
+                                style="visibility: hidden; animation-duration: 1.5s; animation-name: none;">
+                                <h2>Let's work together!</h2>
+                            </div>
+                            <div class="mt-5 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s"
+                                style="visibility: hidden; animation-duration: 1.5s; animation-delay: 0.2s; animation-name: none;">
+                                <a href="mailto:bucharitesh@gmail.com" class="btn btn-outline hover-state">Hire Me!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+		<!-- END: CTA -->
 
-	<!-- START: CONTACT -->
-		<section class="section section-dark section-contact" id="contact">
-			<div class="container">
-				<div class="section-head">
-					<span>say Hello</span>
-					<h2>Contact </h2>
-				</div>
+		<!-- START: CONTACT -->
+            <section class="section section-dark section-contact" id="contact">
+                <div class="container">
+                    <div class="section-head">
+                        <span>say Hello</span>
+                        <h2>Contact </h2>
+                    </div>
 
-				<div class="contact-map mt-5">
-					<h5 class="section-subHead mb-4"> My Location</h5>
-					<div id="map"></div>
-				</div>
-			</div>
-		</section>
-
-
-		<div class="contact-Otherdetails">
-			<div class="container">
-				<div class="contact-details">
-					<h5 class="section-subHead pt-5 mb-4"> Get in Touch</h5>
-					<div class="row">
-						<div class="col-md-4 col-lg-4">
-							<div class="contact-details--panel p-4 b-box text-center hover-state wow fadeInUp"
-								data-wow-duration="1.5s"
-								style="visibility: hidden; animation-duration: 1.5s; animation-name: none;">
-								<div class="mb-4">
-									<i class="fas fa-map-marked-alt"></i>
-								</div>
-								<div class="mt-2">
-									<a href="https://goo.gl/maps/neoNV7dUSUpsQQod7" class="">Silchar, Assam 788001</a>
-									<p class="mt-1 font-weight-bold ">Address</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-lg-4">
-							<div class="contact-details--panel p-4 b-box text-center hover-state wow fadeInUp"
-								data-wow-duration="1.5s"
-								style="visibility: hidden; animation-duration: 1.5s; animation-name: none;">
-								<div class="mb-4">
-									<i class="fas fa-mobile-alt  "></i>
-								</div>
-								<div class="mt-2">
-									<a href="tel:9401000006" class="">+91 94010 00006</a>
-									<p class="mt-1 font-weight-bold ">Call Me</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-lg-4">
-							<div class="contact-details--panel p-4 b-box text-center hover-state wow fadeInUp"
-								data-wow-duration="1.5s" data-wow-delay=".2s"
-								style="visibility: hidden; animation-duration: 1.5s; animation-delay: 0.2s; animation-name: none;">
-								<div class="mb-4">
-									<i class="fas fa-envelope  "></i>
-								</div>
-								<div class="mt-2">
-									<a href="mailto:bucharitesh@gmail.com">bucharitesh@gmail.com</a>
-									<p class="mt-1 font-weight-bold ">Email Me</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="contact-form mt-5">
-					<form name="contact-form" action="" method="post" id="contact-form">
-						<h5 class="section-subHead mb-2"> Contact Form</h5>
-						<div class="row">
-							<div class="col-lg-6">
-								<div class="form-group mt-3 wow fadeInUp" data-wow-duration="1.5s"
-									style="visibility: hidden; animation-duration: 1.5s; animation-name: none;">
-									<input name="your_name" id="name" type="text" class="form-control b-box"
-										placeholder="Your Name*" required="">
-								</div>
-							</div>
-							<div class="col-lg-6">
-								<div class="form-group mt-3 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s"
-									style="visibility: hidden; animation-duration: 1.5s; animation-delay: 0.2s; animation-name: none;">
-									<input name="your_email" id="email" type="email" class="form-control b-box"
-										placeholder="Your Email*" required="">
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-12">
-								<div class="form-group mt-3 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".3s"
-									style="visibility: hidden; animation-duration: 1.5s; animation-delay: 0.3s; animation-name: none;">
-									<input type="text" class="form-control b-box" name="subject" id="subject"
-										placeholder="Your Subject.." required="">
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-12">
-								<div class="form-group mt-3 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".4s"
-									style="visibility: hidden; animation-duration: 1.5s; animation-delay: 0.4s; animation-name: none;">
-									<textarea name="comments" id="comments" rows="4" class="form-control b-box"
-										placeholder="Your message..."></textarea>
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-12 text-center mt-4 mb-5  wow fadeInUp" data-wow-duration="1.5s"
-								data-wow-delay=".5s"
-								style="visibility: hidden; animation-duration: 1.5s; animation-delay: 0.5s; animation-name: none;">
-								<input type="submit"  name="submit" id="submit_form" class="btn hover-state" value="Submit" />
-
-							</div>
-						</div>
-					</form>
-					<div class="response_msg"></div>
-				</div>
-			</div>
-		</div>
-		</section>
-	<!-- END: CONTACT -->
-
-	<!--START: FOOTER-->
-		<footer class="footer section section-light">
-			<div class="container">
-				<p class="copyright text-center mb-0">crafted with <i class="fas fa-heart" style="color: red;"></i> by Ritesh Bucha</p>
-			</div>
-		</footer>
-<!--END: FOOTER-->
-
-	<!-- JAVASCRIPTS -->
-
-		<!-- Refresh Scroll to top -->
-			<script>
-				window.onbeforeunload = function () {
-					window.scrollTo(0, 0);
-				};
-			</script>
-		<!---->
+                    <div class="contact-map mt-5">
+                        <h5 class="section-subHead mb-4"> My Location</h5>
+                        <div id="map"></div>
+                    </div>
+                </div>
+            </section>
 
 
-		<script defer src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-		<script defer src="https://www.gstatic.com/firebasejs/7.12.0/firebase-app.js"></script>
-		<script defer src="https://www.gstatic.com/firebasejs/7.12.0/firebase-analytics.js"></script>
-		<script defer src="https://www.gstatic.com/firebasejs/7.12.0/firebase-database.js"></script>
-		
-		<!-- Bootstrap & Smooth Scroll-->
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.2.0/jquery.smooth-scroll.min.js" integrity="sha256-fdhzLBb+vMfwRwZKZPtza9iFcdVtEhrWRHhxSzEy4Ek=" crossorigin="anonymous"></script>
-		
-		<!-- Awesome Fonts -->
-		<script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
-		<script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/brands.min.js" integrity="sha256-z0T3r+4uTjAkB5CHxybF9RQwAzHEdFB5+hJe/pGAcPg=" crossorigin="anonymous"></script>
+            <div class="contact-Otherdetails">
+                <div class="container">
+                    <div class="contact-details">
+                        <h5 class="section-subHead pt-5 mb-4"> Get in Touch</h5>
+                        <div class="row">
+                            <div class="col-md-4 col-lg-4">
+                                <div class="contact-details--panel p-4 b-box text-center hover-state wow fadeInUp"
+                                    data-wow-duration="1.5s"
+                                    style="visibility: hidden; animation-duration: 1.5s; animation-name: none;">
+                                    <div class="mb-4">
+                                        <i class="fas fa-map-marked-alt"></i>
+                                    </div>
+                                    <div class="mt-2">
+                                        <a href="https://goo.gl/maps/neoNV7dUSUpsQQod7" class="">Silchar, Assam 788001</a>
+                                        <p class="mt-1 font-weight-bold ">Address</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-4">
+                                <div class="contact-details--panel p-4 b-box text-center hover-state wow fadeInUp"
+                                    data-wow-duration="1.5s"
+                                    style="visibility: hidden; animation-duration: 1.5s; animation-name: none;">
+                                    <div class="mb-4">
+                                        <i class="fas fa-mobile-alt  "></i>
+                                    </div>
+                                    <div class="mt-2">
+                                        <a href="tel:9401000006" class="">+91 94010 00006</a>
+                                        <p class="mt-1 font-weight-bold ">Call Me</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-4">
+                                <div class="contact-details--panel p-4 b-box text-center hover-state wow fadeInUp"
+                                    data-wow-duration="1.5s" data-wow-delay=".2s"
+                                    style="visibility: hidden; animation-duration: 1.5s; animation-delay: 0.2s; animation-name: none;">
+                                    <div class="mb-4">
+                                        <i class="fas fa-envelope  "></i>
+                                    </div>
+                                    <div class="mt-2">
+                                        <a href="mailto:bucharitesh@gmail.com">bucharitesh@gmail.com</a>
+                                        <p class="mt-1 font-weight-bold ">Email Me</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form mt-5">
+                        <form name="contact-form" action="" method="post" id="contact-form">
+                            <h5 class="section-subHead mb-2"> Contact Form</h5>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group mt-3 wow fadeInUp" data-wow-duration="1.5s"
+                                        style="visibility: hidden; animation-duration: 1.5s; animation-name: none;">
+                                        <input name="your_name" id="name" type="text" class="form-control b-box"
+                                            placeholder="Your Name*" required="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group mt-3 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s"
+                                        style="visibility: hidden; animation-duration: 1.5s; animation-delay: 0.2s; animation-name: none;">
+                                        <input name="your_email" id="email" type="email" class="form-control b-box"
+                                            placeholder="Your Email*" required="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group mt-3 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".3s"
+                                        style="visibility: hidden; animation-duration: 1.5s; animation-delay: 0.3s; animation-name: none;">
+                                        <input type="text" class="form-control b-box" name="subject" id="subject"
+                                            placeholder="Your Subject.." required="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group mt-3 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".4s"
+                                        style="visibility: hidden; animation-duration: 1.5s; animation-delay: 0.4s; animation-name: none;">
+                                        <textarea name="comments" id="comments" rows="4" class="form-control b-box"
+                                            placeholder="Your message..."></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 text-center mt-4 mb-5  wow fadeInUp" data-wow-duration="1.5s"
+                                    data-wow-delay=".5s"
+                                    style="visibility: hidden; animation-duration: 1.5s; animation-delay: 0.5s; animation-name: none;">
+                                    <input type="submit"  name="submit" id="submit_form" class="btn hover-state" value="Submit" />
 
-		<!-- All internal minimized -->
-		<script defer src="./assets/js/vendor.js"></script>
-		<script defer src="./assets/js/custom.min.js"></script>
+                                </div>
+                            </div>
+                        </form>
+                        <div class="response_msg"></div>
+                    </div>
+                </div>
+            </div>
+            </section>
+		<!-- END: CONTACT -->
 
-	<!-- JAVASCRIPTS -->
+		<!--START: FOOTER-->
+            <footer class="footer section section-light">
+                <div class="container">
+                    <p class="copyright text-center mb-0">crafted with <i class="fas fa-heart" style="color: red;"></i> by Ritesh Bucha</p>
+                </div>
+            </footer>
+	<!--END: FOOTER-->
 
-</body></html>
+    <!-- JAVASCRIPTS -->
+        <!-- Refresh Scroll to top -->
+            <script>
+                window.onbeforeunload = function () {
+                    window.scrollTo(0, 0);
+                };
+            </script>
+        <!---->
+            <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" async></script>
+            <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-app.js" async></script>
+            <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-analytics.js" async></script>
+            <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-database.js" async></script>
+        <!-- Bootstrap -->
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <!-- Smooth Scroll  & lazysize -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.2.0/jquery.smooth-scroll.min.js" integrity="sha256-fdhzLBb+vMfwRwZKZPtza9iFcdVtEhrWRHhxSzEy4Ek=" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.0/lazysizes.min.js" integrity="sha256-h2tMEmhemR2IN4wbbdNjj9LaDIjzwk2hralQwfJmBOE=" crossorigin="anonymous"></script>
+            <!-- All internal minimized -->
+            <script defer src="./assets/js/vendor.js"></script>
+            <script defer src="./assets/js/custom.min.js"></script>
+        <!-- Awesome Fonts -->
+	       <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
+	       <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/brands.min.js" integrity="sha256-z0T3r+4uTjAkB5CHxybF9RQwAzHEdFB5+hJe/pGAcPg=" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
