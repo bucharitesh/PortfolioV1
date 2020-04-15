@@ -4,25 +4,6 @@
 
 # Changelogs
 
-<b>V1.0.4 (28-3-2020)</b>
-<ul>
-  
-<li>Fixed Broken nav bar after v1.0.2</li>
-
-</ul>
-
-<b>V1.0.3 (25-3-2020 to 27-3-2020)</b>
-<ul>
-<li>Footer text update. Now it looks cool</li>
-
-<li>Removed 404 page due to glitch</li>
-
-<li>Updated .htaccess file for faster load speed</li>
-
-<li>Added download resume button with Modal Center</li>
-
-</ul>
-
 <b>V1.0.2 (24-3-2020)</b>
 <ul>
 <li>SEO for faster load time using </li>
